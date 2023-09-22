@@ -19,21 +19,19 @@ public class EjemploUno
         num2 = Convert.ToInt32(Console.ReadLine());
 
         //calculos//
-
         suma = num1 + num2;
-        resta = num1 + num2;
-        producto = num1 + num2;
-        cociente = num1 + num2;
+        resta = num1 - num2;
+        producto = num1 * num2;
+        cociente = num1 / num2;
 
         // datos de salida//
-
-        Console.Write("La suma es : + suma");
+        Console.Write("La suma es: " + suma);    
         Console.Write("\n");
-        Console.Write("La resta es : + resta");
+        Console.Write("La resta es : " + resta);
         Console.Write("\n");
-        Console.Write("El producto es : + producto");    
+        Console.Write("El producto es : " + producto);    
         Console.Write("\n");
-        Console.Write("El cociente es : + cociente");
+        Console.Write("El cociente es : " + cociente);
 
 
 
